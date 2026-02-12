@@ -33,8 +33,6 @@ def build_comparison_table(results, gleif_vars, manager_vars):
 
     df = pd.DataFrame(rows)
 
-    df = df.astype(str)
-
     styled_df = df.style.apply(
         lambda row: [
             "",
