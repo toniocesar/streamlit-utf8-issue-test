@@ -104,6 +104,6 @@ df = build_comparison_table(
     gleif_vars,
     manager_vars
 )
-
-st.dataframe(df, use_container_width=True)
+if st.button("press for graph):
+    st.dataframe(df, use_container_width=True)
 
