@@ -1,6 +1,6 @@
 beautifulsoup4
 requests
-pandas==2.1.4
+pandas
 pyperclip
 flask
 rapidfuzz
